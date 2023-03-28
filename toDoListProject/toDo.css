@@ -1,0 +1,48 @@
+.container {
+  width: 70%;
+  margin-left: 15%;
+  background-color: rgba(0, 247, 255, 0.349);
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(180, 180, 180);
+}
+.top-text {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-top: 15px;
+}
+.input-Field {
+  width: -webkit-fill-available;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  height: 30px;
+  border-style: solid;
+  border-color: white;
+  border-bottom: none;
+}
+
+.add-button {
+  width: -webkit-fill-available;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 247, 255, 0.349);
+  border-style: solid;
+  border-color: rgb(180, 180, 180);
+  border-left: none;
+  border-right: none;
+  color: black;
+  font-size: large;
+}
+.add-button:hover {
+  font: bolder;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.192);
+}
