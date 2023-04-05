@@ -12,22 +12,10 @@ body {
   padding: 50px;
   background-color: white;
 }
-.info {
+.info-display {
   margin: 20px;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-.info div {
-  padding: 2rem;
-  margin: 0.5rem;
-  background-color: #1a5f7a;
-  border-radius: 10px;
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: larger;
-  color: azure;
-  border: 3px solid #159895;
-  cursor: pointer;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 h1 {
   text-align: center;
@@ -41,16 +29,18 @@ h1 {
   border: 3px solid #159895;
   cursor: auto;
 }
-.info span {
-  text-transform: capitalize;
-  margin-bottom: 3px;
-  font-size: large;
+.info-display div {
+  padding: 2rem;
+  margin: 0.5rem;
+  background-color: #1a5f7a;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  color: azure;
+  border: 3px solid #159895;
+  cursor: pointer;
 }
-.info p {
-  margin-top: 3px;
-  font-size: medium;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-.change-color {
+.ill {
   transform: scale(1.1);
 }
